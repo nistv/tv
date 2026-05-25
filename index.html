@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>NIS TV Pro | M3U8 Player</title>
+    <title>NIS TV Pro | Free by NIS</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8/dist/hls.min.js"></script>
@@ -47,7 +47,23 @@
         .channel-logo { width: 48px; height: 48px; background: #232842; border-radius: 30px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: bold; background-size: cover; background-position: center; }
         .channel-name { font-weight: 600; font-size: 0.9rem; }
         .channel-group { font-size: 0.65rem; color: #9aa2c9; }
-        .footer { text-align: center; margin-top: 35px; padding-top: 15px; border-top: 1px solid #262b42; font-size: 0.7rem; color: #6d749b; }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .social-links a {
+            color: #9aa3c7;
+            font-size: 1.6rem;
+            transition: 0.2s;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #5e7bff;
+        }
+        .footer { text-align: center; margin-top: 20px; padding-top: 15px; border-top: 1px solid #262b42; font-size: 0.7rem; color: #6d749b; }
         .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1e233b; padding: 8px 24px; border-radius: 60px; font-size: 0.8rem; z-index: 999; }
     </style>
 </head>
@@ -110,26 +126,31 @@
             <div id="channelsGrid" class="channels-grid"><div class="empty-msg">Loading channels...</div></div>
         </div>
     </div>
-       <div class="footer">
-        আমরা সরাসরি কোনো হোস্টিং করি না। থার্ড পার্ট ওয়েবসাইট থেকে সংগ্রহ করা সব চ্যানেল  লাইভ দেখার ব্যবস্থা করেছি | NIS TV Pro-2026 | Permanent playlists by NIS
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://facebook.com/nisobuj01" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://t.me/nisobuj00" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram-plane"></i></a>
+    </div>
+    <div class="footer">
+        আমরা সরাসরি কোনো হোস্টিং করি না। থার্ড পার্ট ওয়েবসাইট থেকে সংগ্রহ করা সব চ্যানেল লাইভ দেখার ব্যবস্থা করেছি | NIS TV Pro-2026 | Permanent playlists by NIS
     </div>
 </div>
 <div id="toastMessage" class="toast" style="display: none;"></div>
 
 <script>
     // ==================== MULTIPLE PERMANENT (HIDDEN) PLAYLISTS ====================
-    // এখানে যত খুশি স্থায়ী প্লেলিস্ট যোগ করুন - এগুলো কখনো UI-তে দেখাবে না, ডিলিট করা যাবে না
     const FIXED_PLAYLISTS = [
         { name: "NIS Play List", url: "https://nistv.github.io/tv/TV.m3u8" },
-        { name: "Bangla All", url: "***" },
-        { name: "World News", url: "***" }
+        { name: "Bangla All", url: "https://go.skym3u.top/69di.m3u" },
+        { name: "World News", url: "https://example.com/tv.m3u8" }
     ];
 
     const STORAGE_PLAYLISTS_KEY = "nistvpro_extra_playlists";
     const STORAGE_CHANNELS_KEY = "nistvpro_channels";
 
-    let allChannels = [];          // সব চ্যানেল (ফিক্সড + এক্সট্রা + ম্যানুয়াল)
-    let extraPlaylists = [];       // ব্যবহারকারীর যোগ করা প্লেলিস্ট (অবজেক্ট {name, url})
+    let allChannels = [];
+    let extraPlaylists = [];
     let activeCategory = "all";
     let searchText = "";
     let currentHls = null;
@@ -218,7 +239,6 @@
         }
     }
 
-    // M3U parser
     function parseM3U(content) {
         const lines = content.split(/\r?\n/);
         let channels = [];
@@ -261,24 +281,27 @@
         return channels;
     }
 
-    // ফিক্সড প্লেলিস্ট + এক্সট্রা প্লেলিস্ট + ম্যানুয়াল চ্যানেল একত্রে লোড
     async function loadAllPlaylists(showToastMsg = true) {
         if (isLoading) return;
         isLoading = true;
-        if (showToastMsg) showToast("Loading all playlists...", 1500);
-        
+        if (showToastMsg) showToast("Loading playlists...", 1500);
         let allRemoteChannels = [];
-        
-        // 1. Load fixed playlist
-        try {
-            const res = await fetch(FIXED_PLAYLIST.url);
-            if (res.ok) {
-                const text = await res.text();
-                const channels = parseM3U(text);
-                allRemoteChannels.push(...channels);
-                if (showToastMsg) showToast(`Loaded ${channels.length} from ${FIXED_PLAYLIST.name}`, 1000);
+
+        // 1. Load all fixed (permanent) playlists
+        for (const fixed of FIXED_PLAYLISTS) {
+            try {
+                const res = await fetch(fixed.url);
+                if (res.ok) {
+                    const text = await res.text();
+                    const chs = parseM3U(text);
+                    allRemoteChannels.push(...chs);
+                    if (showToastMsg) showToast(`✓ ${fixed.name}: ${chs.length}`, 800);
+                } else throw new Error(`HTTP ${res.status}`);
+            } catch(e) {
+                console.warn(`Failed fixed: ${fixed.name}`, e);
+                if (showToastMsg) showToast(`⚠️ ${fixed.name} failed`, 1200);
             }
-        } catch(e) { console.error("Fixed playlist error:", e); }
+        }
 
         // 2. Load extra playlists
         for (const pl of extraPlaylists) {
@@ -286,17 +309,17 @@
                 const res = await fetch(pl.url);
                 if (res.ok) {
                     const text = await res.text();
-                    const channels = parseM3U(text);
-                    allRemoteChannels.push(...channels);
-                    if (showToastMsg) showToast(`Loaded ${channels.length} from ${pl.name}`, 1000);
+                    const chs = parseM3U(text);
+                    allRemoteChannels.push(...chs);
+                    if (showToastMsg) showToast(`✓ ${pl.name}: ${chs.length}`, 800);
                 } else throw new Error(`HTTP ${res.status}`);
             } catch(e) {
-                console.error(`Failed to load ${pl.name}:`, e);
-                if (showToastMsg) showToast(`Failed: ${pl.name}`, 1500);
+                console.error(`Extra playlist error ${pl.name}:`, e);
+                if (showToastMsg) showToast(`⚠️ ${pl.name} failed`, 1200);
             }
         }
 
-        // 3. Merge with manual channels
+        // 3. Merge with manually added channels
         const existingManual = allChannels.filter(ch => ch.isManual);
         const combined = [...allRemoteChannels, ...existingManual];
         const uniqueMap = new Map();
@@ -307,10 +330,9 @@
         saveChannelsToLocal();
         renderUI();
         isLoading = false;
-        if (showToastMsg) showToast(`Total ${allChannels.length} channels loaded`, 2000);
+        if (showToastMsg) showToast(`Total ${allChannels.length} channels ready`, 2000);
     }
 
-    // এক্সট্রা প্লেলিস্ট ম্যানেজমেন্ট
     function saveExtraPlaylists() {
         localStorage.setItem(STORAGE_PLAYLISTS_KEY, JSON.stringify(extraPlaylists));
         renderPlaylistList();
@@ -440,11 +462,11 @@
     }
 
     function resetAll() {
-        if (confirm("⚠️ Delete all manually added channels and extra playlists? Default playlist will remain.")) {
-            allChannels = [];
+        if (confirm("⚠️ Delete all manually added channels and extra playlists? Default playlists will remain.")) {
             extraPlaylists = [];
-            saveChannelsToLocal();
+            allChannels = [];
             saveExtraPlaylists();
+            saveChannelsToLocal();
             loadAllPlaylists(true);
         }
     }
@@ -465,16 +487,13 @@
         reader.readAsText(file);
     }
 
-    // ইনিশিয়ালাইজেশন
     function init() {
-        // লোড এক্সট্রা প্লেলিস্ট
         const storedPlaylists = localStorage.getItem(STORAGE_PLAYLISTS_KEY);
         if (storedPlaylists) {
             try { extraPlaylists = JSON.parse(storedPlaylists); } catch(e) { extraPlaylists = []; }
         } else { extraPlaylists = []; }
         renderPlaylistList();
 
-        // লোড সংরক্ষিত চ্যানেল (যদি থাকে)
         const storedChannels = localStorage.getItem(STORAGE_CHANNELS_KEY);
         if (storedChannels) {
             try {
@@ -485,7 +504,6 @@
         loadAllPlaylists(true);
     }
 
-    // ইভেন্ট লিসেনার
     addChannelBtn.addEventListener('click', addSingleChannel);
     resetAllBtn.addEventListener('click', resetAll);
     chooseFileBtn.addEventListener('click', () => fileInput.click());
@@ -494,7 +512,6 @@
         e.target.value = '';
     });
     searchInput.addEventListener('input', (e) => { searchText = e.target.value; renderUI(); });
-    
     addPlaylistBtn.addEventListener('click', () => {
         const url = playlistUrlInput.value.trim();
         if (!url) { showToast("Enter playlist URL"); return; }
