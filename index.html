@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>NIS TV Pro | Fixed Playlist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8/dist/hls.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #0a0c15; color: #edeef7; padding: 20px; }
+        .app-container { max-width: 1500px; margin: 0 auto; }
+        .header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 25px; border-bottom: 1px solid #2c2f42; padding-bottom: 15px; }
+        .logo h1 { font-size: 2rem; background: linear-gradient(135deg, #b6a2ff, #6080ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .reset-btn { background: #1f2235; border: none; padding: 8px 20px; border-radius: 40px; color: #ff9e8f; cursor: pointer; }
+        .dashboard { display: flex; gap: 25px; flex-wrap: wrap; }
+        .left-panel { flex: 0 0 320px; background: #0f1220; border-radius: 28px; padding: 1.4rem; border: 1px solid #292e44; }
+        .left-panel h3 { font-size: 1.2rem; margin-bottom: 1rem; border-left: 4px solid #5e7bff; padding-left: 12px; display: flex; align-items: center; gap: 8px; }
+        .input-group { margin-bottom: 1rem; }
+        .input-group label { font-size: 0.7rem; text-transform: uppercase; color: #9aa3c7; display: block; margin-bottom: 6px; }
+        .input-group input, .input-group textarea { width: 100%; background: #181c2b; border: 1px solid #2f354c; padding: 10px 12px; border-radius: 24px; color: white; font-size: 0.85rem; outline: none; }
+        .btn-primary { background: linear-gradient(90deg, #5263ff, #8a4eff); width: 100%; border: none; padding: 10px; border-radius: 40px; font-weight: bold; color: white; cursor: pointer; margin-top: 5px; }
+        .btn-secondary { background: #22263d; border: 1px solid #42486b; width: 100%; border-radius: 40px; padding: 9px; cursor: pointer; color: #cdd6ff; }
+        hr { margin: 20px 0; border-color: #2a2f47; }
+        .small-note { font-size: 0.7rem; color: #7b83aa; text-align: center; margin-top: 15px; }
+        .content-panel { flex: 1; min-width: 280px; }
+        .video-area { background: black; border-radius: 28px; overflow: hidden; margin-bottom: 20px; border: 1px solid #2f354c; }
+        video { width: 100%; max-height: 520px; display: block; }
+        .player-info { background: #0e111d; padding: 10px 18px; display: flex; justify-content: space-between; align-items: center; }
+        .now-playing { font-weight: 500; display: flex; gap: 8px; align-items: center; }
+        .quality-select { background: #1e2235; border: none; border-radius: 30px; padding: 5px 12px; color: white; }
+        .channels-header { display: flex; justify-content: space-between; align-items: center; margin: 20px 0 12px 0; flex-wrap: wrap; }
+        .search-box { background: #11141f; border-radius: 40px; padding: 5px 16px; display: flex; gap: 8px; }
+        .search-box input { background: transparent; border: none; color: white; outline: none; }
+        .categories { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+        .cat-item { background: #171b2b; padding: 6px 18px; border-radius: 40px; font-size: 0.75rem; cursor: pointer; }
+        .cat-item.active { background: #5e7bff; color: white; }
+        .channels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; max-height: 500px; overflow-y: auto; padding: 4px; }
+        .channel-card { background: #11141f; border-radius: 20px; padding: 12px; display: flex; gap: 12px; align-items: center; cursor: pointer; border: 1px solid #262b42; transition: 0.2s; }
+        .channel-card:hover { background: #1a1e30; border-color: #5e7bff; transform: translateY(-2px); }
+        .channel-logo { width: 48px; height: 48px; background: #232842; border-radius: 30px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: bold; background-size: cover; background-position: center; }
+        .channel-name { font-weight: 600; font-size: 0.9rem; }
+        .channel-group { font-size: 0.65rem; color: #9aa2c9; }
+        .footer { text-align: center; margin-top: 35px; padding-top: 15px; border-top: 1px solid #262b42; font-size: 0.7rem; color: #6d749b; }
+        .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1e233b; padding: 8px 24px; border-radius: 60px; font-size: 0.8rem; z-index: 999; }
+    </style>
+</head>
+<body>
+<div class="app-container">
+    <div class="header">
+        <div class="logo"><h1>NIS TV Pro <span style="font-size:0.8rem;">⚡ Fixed Playlist</span></h1></div>
+        <button id="resetAllBtn" class="reset-btn"><i class="fas fa-trash-alt"></i> Reset All Channels</button>
+    </div>
+    <div class="dashboard">
+        <!-- Left Panel: শুধু চ্যানেল যোগ করার অপশন (প্লেলিস্ট UI হাইড) -->
+        <div class="left-panel">
+            <h3><i class="fas fa-plus"></i> Add Single Channel</h3>
+            <div class="input-group">
+                <input type="text" id="chName" placeholder="Channel Name">
+                <input type="text" id="chUrl" placeholder="Stream URL">
+                <input type="text" id="chGroup" placeholder="Category">
+                <input type="text" id="chLogo" placeholder="Logo URL or emoji">
+                <button id="addChannelBtn" class="btn-primary">Save Channel</button>
+            </div>
+            <hr>
+            <div class="input-group">
+                <label>Local .m3u File (Merge)</label>
+                <input type="file" id="m3uFileInput" accept=".m3u,.m3u8,.txt" style="display:none">
+                <button id="chooseFileBtn" class="btn-secondary"><i class="fas fa-folder-open"></i> Choose File</button>
+            </div>
+            <div class="small-note">
+                <i class="fas fa-info-circle"></i> Default playlist (NIS Play List) is permanently loaded.<br>
+                Manually added channels are merged.
+            </div>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="content-panel">
+            <div class="video-area">
+                <video id="videoPlayer" controls poster="https://placehold.co/1920x540/0e1122/5e7bff?text=NIS+TV+Pro"></video>
+                <div class="player-info">
+                    <div class="now-playing"><i class="fas fa-tv"></i> <span id="currentChannelLabel">No channel</span></div>
+                    <select id="qualitySelect" class="quality-select" disabled><option>Auto quality</option></select>
+                </div>
+            </div>
+            <div class="channels-header">
+                <div><strong>My Channels</strong> <span id="totalChannels">(0)</span></div>
+                <div class="search-box"><i class="fas fa-search"></i><input type="text" id="searchInput" placeholder="Search..."></div>
+            </div>
+            <div id="categoriesList" class="categories"></div>
+            <div id="channelsGrid" class="channels-grid"><div class="empty-msg">Loading channels...</div></div>
+        </div>
+    </div>
+    <div class="footer">All Rights Reserved. NIS TV Pro-2026 | Playlist hidden & permanent</div>
+</div>
+<div id="toastMessage" class="toast" style="display: none;"></div>
+
+<script>
+    // ========== স্থায়ী প্লেলিস্ট (হাইড, ডিলিট অপশন নেই) ==========
+    const FIXED_PLAYLIST = {
+        name: "NIS Play List",
+        url: "https://shahinrhss99.github.io/TV/tv.m3u8"
+    };
+
+    const STORAGE_CHANNELS_KEY = "nistvpro_channels";
+
+    let allChannels = [];          // সব চ্যানেল (প্লেলিস্ট + ম্যানুয়াল)
+    let activeCategory = "all";
+    let searchText = "";
+    let currentHls = null;
+    let isLoading = false;
+
+    // DOM elements
+    const video = document.getElementById('videoPlayer');
+    const currentChannelSpan = document.getElementById('currentChannelLabel');
+    const categoriesDiv = document.getElementById('categoriesList');
+    const channelsGridDiv = document.getElementById('channelsGrid');
+    const searchInput = document.getElementById('searchInput');
+    const totalSpan = document.getElementById('totalChannels');
+    const qualitySelect = document.getElementById('qualitySelect');
+    const resetAllBtn = document.getElementById('resetAllBtn');
+    const chooseFileBtn = document.getElementById('chooseFileBtn');
+    const fileInput = document.getElementById('m3uFileInput');
+    const addChannelBtn = document.getElementById('addChannelBtn');
+    const chName = document.getElementById('chName');
+    const chUrl = document.getElementById('chUrl');
+    const chGroup = document.getElementById('chGroup');
+    const chLogo = document.getElementById('chLogo');
+
+    function showToast(msg, duration = 2500) {
+        const toast = document.getElementById('toastMessage');
+        toast.textContent = msg;
+        toast.style.display = 'block';
+        setTimeout(() => toast.style.display = 'none', duration);
+    }
+
+    function destroyPlayer() {
+        if (currentHls) { currentHls.destroy(); currentHls = null; }
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+        qualitySelect.disabled = true;
+        qualitySelect.innerHTML = '<option>Auto quality</option>';
+    }
+
+    function playChannel(ch) {
+        if (!ch || !ch.url) return;
+        destroyPlayer();
+        currentChannelSpan.innerText = ch.name;
+        const streamUrl = ch.url.trim();
+
+        const setQualityOptions = (levels) => {
+            if (levels && levels.length > 1) {
+                qualitySelect.disabled = false;
+                qualitySelect.innerHTML = '<option value="auto">Auto (Best)</option>';
+                levels.forEach((lvl, idx) => {
+                    let label = lvl.height ? `${lvl.height}p` : `${Math.round(lvl.bitrate/1000)}k`;
+                    qualitySelect.innerHTML += `<option value="${idx}">${label}</option>`;
+                });
+                qualitySelect.onchange = () => {
+                    if (currentHls) currentHls.currentLevel = qualitySelect.value === 'auto' ? -1 : parseInt(qualitySelect.value);
+                };
+            } else {
+                qualitySelect.disabled = true;
+                qualitySelect.innerHTML = '<option>Auto (No variants)</option>';
+            }
+        };
+
+        if (streamUrl.includes('.m3u8') || streamUrl.endsWith('m3u8')) {
+            if (Hls.isSupported()) {
+                const hls = new Hls({ debug: false });
+                currentHls = hls;
+                hls.loadSource(streamUrl);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    setQualityOptions(hls.levels);
+                    video.play().catch(e => showToast("Autoplay blocked, click play"));
+                });
+                hls.on(Hls.Events.ERROR, (_, err) => { if (err.fatal) showToast("Stream error"); });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = streamUrl;
+                video.play().catch(()=>{});
+                qualitySelect.disabled = true;
+            } else showToast("HLS not supported");
+        } else {
+            video.src = streamUrl;
+            video.play().catch(()=>showToast("Playback error"));
+            qualitySelect.disabled = true;
+        }
+    }
+
+    // M3U parser
+    function parseM3U(content) {
+        const lines = content.split(/\r?\n/);
+        let channels = [];
+        for (let i = 0; i < lines.length; i++) {
+            let line = lines[i].trim();
+            if (line.startsWith('#EXTINF')) {
+                let attrs = {};
+                let attrRegex = /(\w+(?:-\w+)?)="([^"]*)"/g;
+                let match;
+                while ((match = attrRegex.exec(line)) !== null) attrs[match[1]] = match[2];
+                let name = "";
+                let lastComma = line.lastIndexOf(',');
+                if (lastComma !== -1) name = line.substring(lastComma + 1).trim();
+                if (!name && attrs['tvg-name']) name = attrs['tvg-name'];
+                if (!name) name = "Unknown";
+                let group = attrs['group-title'] || "Uncategorized";
+                let logo = attrs['tvg-logo'] || "";
+                let urlLine = "";
+                let j = i + 1;
+                while (j < lines.length) {
+                    let nxt = lines[j].trim();
+                    if (nxt && !nxt.startsWith('#')) {
+                        urlLine = nxt;
+                        break;
+                    }
+                    j++;
+                }
+                if (urlLine && !urlLine.includes('#KODIPROP')) {
+                    channels.push({
+                        id: Date.now() + '-' + Math.random() + '-' + i,
+                        name: name,
+                        url: urlLine,
+                        group: group,
+                        logo: logo || ""
+                    });
+                }
+                i = j;
+            }
+        }
+        return channels;
+    }
+
+    // স্থায়ী প্লেলিস্ট লোড (ব্যাকগ্রাউন্ডে)
+    async function loadFixedPlaylist() {
+        isLoading = true;
+        showToast("Loading permanent playlist...", 1500);
+        try {
+            const response = await fetch(FIXED_PLAYLIST.url);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const text = await response.text();
+            const remoteChannels = parseM3U(text);
+            // ম্যানুয়ালি যোগ করা চ্যানেলগুলো রাখার জন্য (isManual ফ্ল্যাগ থাকবে)
+            const existingManual = allChannels.filter(ch => ch.isManual);
+            const combined = [...remoteChannels, ...existingManual];
+            // ডুপ্লিকেট ইউআরএল বাদ
+            const uniqueMap = new Map();
+            combined.forEach(ch => {
+                if (!uniqueMap.has(ch.url)) uniqueMap.set(ch.url, ch);
+            });
+            allChannels = Array.from(uniqueMap.values());
+            saveChannelsToLocal();
+            renderUI();
+            showToast(`Loaded ${allChannels.length} channels (including manual)`, 2000);
+        } catch (err) {
+            console.error(err);
+            showToast("Failed to load default playlist. Using local cache.", 3000);
+            // লোকাল ক্যাশে থাকলে সেটা দেখাবে
+            const stored = localStorage.getItem(STORAGE_CHANNELS_KEY);
+            if (stored) {
+                try {
+                    allChannels = JSON.parse(stored);
+                    renderUI();
+                } catch(e) {}
+            }
+        }
+        isLoading = false;
+    }
+
+    function saveChannelsToLocal() {
+        localStorage.setItem(STORAGE_CHANNELS_KEY, JSON.stringify(allChannels));
+    }
+
+    function renderUI() {
+        totalSpan.innerText = `(${allChannels.length})`;
+        let groups = new Map();
+        groups.set('all', allChannels.length);
+        allChannels.forEach(ch => {
+            let g = ch.group || "Uncategorized";
+            groups.set(g, (groups.get(g) || 0) + 1);
+        });
+        let sorted = Array.from(groups.keys()).filter(k => k !== 'all').sort();
+        if (groups.has('all')) sorted.unshift('all');
+        let catHtml = '';
+        sorted.forEach(cat => {
+            let activeClass = activeCategory === cat ? 'active' : '';
+            catHtml += `<div class="cat-item ${activeClass}" data-cat="${cat}">${cat === 'all' ? 'All' : cat} (${groups.get(cat)})</div>`;
+        });
+        categoriesDiv.innerHTML = catHtml;
+        document.querySelectorAll('.cat-item').forEach(el => {
+            el.addEventListener('click', () => {
+                activeCategory = el.dataset.cat;
+                renderUI();
+            });
+        });
+
+        let filtered = allChannels.filter(ch => {
+            if (activeCategory !== 'all' && (ch.group || "Uncategorized") !== activeCategory) return false;
+            if (searchText.trim() && !ch.name.toLowerCase().includes(searchText.toLowerCase())) return false;
+            return true;
+        });
+        if (filtered.length === 0) {
+            channelsGridDiv.innerHTML = '<div class="empty-msg">No channels match</div>';
+            return;
+        }
+        let gridHtml = '';
+        filtered.forEach(ch => {
+            let logoStyle = '';
+            let logoContent = '';
+            if (ch.logo && ch.logo.match(/^https?:\/\//i)) {
+                logoStyle = `background-image: url('${escapeAttr(ch.logo)}'); background-size: cover;`;
+            } else {
+                logoContent = (ch.logo && ch.logo.trim()) ? ch.logo : (ch.name.charAt(0).toUpperCase() || "📺");
+            }
+            gridHtml += `
+                <div class="channel-card" data-url="${escapeAttr(ch.url)}" data-name="${escapeAttr(ch.name)}" data-group="${escapeAttr(ch.group || 'General')}">
+                    <div class="channel-logo" style="${logoStyle}">${escapeHtml(logoContent)}</div>
+                    <div class="channel-info">
+                        <div class="channel-name">${escapeHtml(ch.name)}</div>
+                        <div class="channel-group"><i class="fas fa-tag"></i> ${escapeHtml(ch.group || 'General')}</div>
+                    </div>
+                </div>
+            `;
+        });
+        channelsGridDiv.innerHTML = gridHtml;
+        document.querySelectorAll('.channel-card').forEach(card => {
+            card.addEventListener('click', () => {
+                playChannel({ url: card.dataset.url, name: card.dataset.name, group: card.dataset.group });
+            });
+        });
+    }
+
+    function escapeHtml(str) { return String(str).replace(/[&<>]/g, m => m === '&' ? '&amp;' : m === '<' ? '&lt;' : '&gt;'); }
+    function escapeAttr(str) { return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;'); }
+
+    // ম্যানুয়ালি চ্যানেল যোগ
+    function addSingleChannel() {
+        let name = chName.value.trim();
+        let url = chUrl.value.trim();
+        let group = chGroup.value.trim() || "General";
+        let logo = chLogo.value.trim();
+        if (!name || !url) { showToast("Name and URL required"); return; }
+        allChannels.push({
+            id: Date.now() + '-' + Math.random(),
+            name, url, group, logo,
+            isManual: true
+        });
+        saveChannelsToLocal();
+        renderUI();
+        chName.value = chUrl.value = chGroup.value = chLogo.value = "";
+        showToast(`Added ${name}`);
+    }
+
+    // রিসেট: শুধু ম্যানুয়াল চ্যানেল ডিলিট (প্লেলিস্ট রিলোড)
+    function resetAll() {
+        if (confirm("⚠️ Delete all manually added channels? The default playlist will be reloaded.")) {
+            // কেবল ম্যানুয়াল চ্যানেল বাদ দিয়ে আবার প্লেলিস্ট লোড করি
+            allChannels = [];
+            saveChannelsToLocal();
+            loadFixedPlaylist(); // রিলোড করে ডিফল্ট প্লেলিস্ট আবার ফেচ করবে
+        }
+    }
+
+    // লোকাল .m3u ফাইল মার্জ
+    function loadLocalFile(file) {
+        const reader = new FileReader();
+        reader.onload = e => {
+            const newChannels = parseM3U(e.target.result);
+            if (newChannels.length) {
+                const existingUrls = new Set(allChannels.map(c => c.url));
+                const added = newChannels.filter(ch => !existingUrls.has(ch.url));
+                allChannels = [...allChannels, ...added];
+                saveChannelsToLocal();
+                renderUI();
+                showToast(`Merged ${added.length} channels from file`);
+            } else showToast("No valid channels found");
+        };
+        reader.readAsText(file);
+    }
+
+    // প্রাথমিক লোড
+    function init() {
+        const stored = localStorage.getItem(STORAGE_CHANNELS_KEY);
+        if (stored) {
+            try {
+                allChannels = JSON.parse(stored);
+                renderUI();
+            } catch(e) { allChannels = []; }
+        }
+        loadFixedPlaylist(); // স্থায়ী প্লেলিস্ট ব্যাকগ্রাউন্ডে লোড হবে
+    }
+
+    // ইভেন্ট লিসেনার
+    addChannelBtn.addEventListener('click', addSingleChannel);
+    resetAllBtn.addEventListener('click', resetAll);
+    chooseFileBtn.addEventListener('click', () => fileInput.click());
+    fileInput.addEventListener('change', (e) => {
+        if (e.target.files.length) loadLocalFile(e.target.files[0]);
+        e.target.value = '';
+    });
+    searchInput.addEventListener('input', (e) => { searchText = e.target.value; renderUI(); });
+
+    init();
+</script>
+</body>
+</html>
