@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>NIS TV Pro | Fixed Playlist</title>
+    <title>NIS TV Pro | M3U8 Player</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8/dist/hls.min.js"></script>
@@ -15,15 +15,20 @@
         .logo h1 { font-size: 2rem; background: linear-gradient(135deg, #b6a2ff, #6080ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
         .reset-btn { background: #1f2235; border: none; padding: 8px 20px; border-radius: 40px; color: #ff9e8f; cursor: pointer; }
         .dashboard { display: flex; gap: 25px; flex-wrap: wrap; }
-        .left-panel { flex: 0 0 320px; background: #0f1220; border-radius: 28px; padding: 1.4rem; border: 1px solid #292e44; }
-        .left-panel h3 { font-size: 1.2rem; margin-bottom: 1rem; border-left: 4px solid #5e7bff; padding-left: 12px; display: flex; align-items: center; gap: 8px; }
+        .left-panel { flex: 0 0 340px; background: #0f1220; border-radius: 28px; padding: 1.4rem; border: 1px solid #292e44; }
+        .left-panel h3 { font-size: 1.1rem; margin-bottom: 0.8rem; border-left: 4px solid #5e7bff; padding-left: 12px; display: flex; align-items: center; gap: 8px; }
         .input-group { margin-bottom: 1rem; }
-        .input-group label { font-size: 0.7rem; text-transform: uppercase; color: #9aa3c7; display: block; margin-bottom: 6px; }
-        .input-group input, .input-group textarea { width: 100%; background: #181c2b; border: 1px solid #2f354c; padding: 10px 12px; border-radius: 24px; color: white; font-size: 0.85rem; outline: none; }
-        .btn-primary { background: linear-gradient(90deg, #5263ff, #8a4eff); width: 100%; border: none; padding: 10px; border-radius: 40px; font-weight: bold; color: white; cursor: pointer; margin-top: 5px; }
-        .btn-secondary { background: #22263d; border: 1px solid #42486b; width: 100%; border-radius: 40px; padding: 9px; cursor: pointer; color: #cdd6ff; }
-        hr { margin: 20px 0; border-color: #2a2f47; }
-        .small-note { font-size: 0.7rem; color: #7b83aa; text-align: center; margin-top: 15px; }
+        .input-group label { font-size: 0.7rem; text-transform: uppercase; color: #9aa3c7; display: block; margin-bottom: 4px; }
+        .input-group input, .input-group textarea { width: 100%; background: #181c2b; border: 1px solid #2f354c; padding: 8px 12px; border-radius: 24px; color: white; font-size: 0.85rem; outline: none; }
+        .radio-group { display: flex; gap: 15px; margin: 8px 0; font-size: 0.8rem; }
+        .btn-primary { background: linear-gradient(90deg, #5263ff, #8a4eff); width: 100%; border: none; padding: 8px; border-radius: 40px; font-weight: bold; color: white; cursor: pointer; margin-top: 5px; }
+        .btn-secondary { background: #22263d; border: 1px solid #42486b; width: 100%; border-radius: 40px; padding: 8px; cursor: pointer; color: #cdd6ff; }
+        hr { margin: 15px 0; border-color: #2a2f47; }
+        .playlist-list { max-height: 180px; overflow-y: auto; margin-top: 8px; }
+        .playlist-item { background: #181c2b; border-radius: 20px; padding: 6px 12px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; }
+        .playlist-name { font-weight: 500; color: #cbd5ff; word-break: break-word; flex: 1; }
+        .remove-playlist { background: none; border: none; color: #ff8a7a; cursor: pointer; margin-left: 8px; }
+        .small-note { font-size: 0.7rem; color: #7b83aa; text-align: center; margin-top: 12px; }
         .content-panel { flex: 1; min-width: 280px; }
         .video-area { background: black; border-radius: 28px; overflow: hidden; margin-bottom: 20px; border: 1px solid #2f354c; }
         video { width: 100%; max-height: 520px; display: block; }
@@ -49,12 +54,31 @@
 <body>
 <div class="app-container">
     <div class="header">
-        <div class="logo"><h1>NIS TV Pro <span style="font-size:0.8rem;">⚡ Fixed Playlist</span></h1></div>
+        <div class="logo"><h1>NIS TV Pro <span style="font-size:0.8rem;">⚡ Free by NIS</span></h1></div>
         <button id="resetAllBtn" class="reset-btn"><i class="fas fa-trash-alt"></i> Reset All Channels</button>
     </div>
     <div class="dashboard">
-        <!-- Left Panel: শুধু চ্যানেল যোগ করার অপশন (প্লেলিস্ট UI হাইড) -->
+        <!-- Left Panel: Add Sources + Playlist Manager -->
         <div class="left-panel">
+            <h3><i class="fas fa-plus-circle"></i> Add M3U Playlist</h3>
+            <div class="input-group">
+                <input type="text" id="playlistUrlInput" placeholder="M3U Playlist URL">
+                <div class="radio-group">
+                    <label><input type="radio" name="mergeMode" value="replace" checked> Replace</label>
+                    <label><input type="radio" name="mergeMode" value="merge"> Merge</label>
+                </div>
+                <button id="addPlaylistBtn" class="btn-primary"><i class="fas fa-cloud-download-alt"></i> Add Playlist</button>
+            </div>
+            <div class="input-group">
+                <label>Local .m3u File</label>
+                <input type="file" id="m3uFileInput" accept=".m3u,.m3u8,.txt" style="display:none">
+                <button id="chooseFileBtn" class="btn-secondary"><i class="fas fa-folder-open"></i> Choose File</button>
+            </div>
+            <hr>
+            <h3><i class="fas fa-list-ul"></i> Active Playlists</h3>
+            <div id="playlistList" class="playlist-list"></div>
+            <button id="reloadAllBtn" class="btn-primary" style="margin-top: 8px;"><i class="fas fa-sync-alt"></i> Reload All</button>
+            <hr>
             <h3><i class="fas fa-plus"></i> Add Single Channel</h3>
             <div class="input-group">
                 <input type="text" id="chName" placeholder="Channel Name">
@@ -63,15 +87,9 @@
                 <input type="text" id="chLogo" placeholder="Logo URL or emoji">
                 <button id="addChannelBtn" class="btn-primary">Save Channel</button>
             </div>
-            <hr>
-            <div class="input-group">
-                <label>Local .m3u File (Merge)</label>
-                <input type="file" id="m3uFileInput" accept=".m3u,.m3u8,.txt" style="display:none">
-                <button id="chooseFileBtn" class="btn-secondary"><i class="fas fa-folder-open"></i> Choose File</button>
-            </div>
             <div class="small-note">
                 <i class="fas fa-info-circle"></i> Default playlist (NIS Play List) is permanently loaded.<br>
-                Manually added channels are merged.
+                Additional playlists can be added/removed.
             </div>
         </div>
 
@@ -92,20 +110,26 @@
             <div id="channelsGrid" class="channels-grid"><div class="empty-msg">Loading channels...</div></div>
         </div>
     </div>
-    <div class="footer">All Rights Reserved. NIS TV Pro-2026 | Playlist hidden & permanent</div>
+       <div class="footer">
+        আমরা সরাসরি কোনো হোস্টিং করি না। থার্ড পার্ট ওয়েবসাইট থেকে সংগ্রহ করা সব চ্যানেল  লাইভ দেখার ব্যবস্থা করেছি | NIS TV Pro-2026 | Permanent playlists by NIS
+    </div>
 </div>
 <div id="toastMessage" class="toast" style="display: none;"></div>
 
 <script>
-    // ========== স্থায়ী প্লেলিস্ট (হাইড, ডিলিট অপশন নেই) ==========
-    const FIXED_PLAYLIST = {
-        name: "NIS Play List",
-        url: "https://nistv.github.io/tv/TV.m3u8"
-    };
+    // ==================== MULTIPLE PERMANENT (HIDDEN) PLAYLISTS ====================
+    // এখানে যত খুশি স্থায়ী প্লেলিস্ট যোগ করুন - এগুলো কখনো UI-তে দেখাবে না, ডিলিট করা যাবে না
+    const FIXED_PLAYLISTS = [
+        { name: "NIS Play List", url: "https://nistv.github.io/tv/TV.m3u8" },
+        { name: "Bangla All", url: "https://go.skym3u.top/69di.m3u" },
+        { name: "World News", url: "***" }
+    ];
 
+    const STORAGE_PLAYLISTS_KEY = "nistvpro_extra_playlists";
     const STORAGE_CHANNELS_KEY = "nistvpro_channels";
 
-    let allChannels = [];          // সব চ্যানেল (প্লেলিস্ট + ম্যানুয়াল)
+    let allChannels = [];          // সব চ্যানেল (ফিক্সড + এক্সট্রা + ম্যানুয়াল)
+    let extraPlaylists = [];       // ব্যবহারকারীর যোগ করা প্লেলিস্ট (অবজেক্ট {name, url})
     let activeCategory = "all";
     let searchText = "";
     let currentHls = null;
@@ -123,6 +147,10 @@
     const chooseFileBtn = document.getElementById('chooseFileBtn');
     const fileInput = document.getElementById('m3uFileInput');
     const addChannelBtn = document.getElementById('addChannelBtn');
+    const addPlaylistBtn = document.getElementById('addPlaylistBtn');
+    const reloadAllBtn = document.getElementById('reloadAllBtn');
+    const playlistUrlInput = document.getElementById('playlistUrlInput');
+    const playlistListDiv = document.getElementById('playlistList');
     const chName = document.getElementById('chName');
     const chUrl = document.getElementById('chUrl');
     const chGroup = document.getElementById('chGroup');
@@ -233,40 +261,99 @@
         return channels;
     }
 
-    // স্থায়ী প্লেলিস্ট লোড (ব্যাকগ্রাউন্ডে)
-    async function loadFixedPlaylist() {
+    // ফিক্সড প্লেলিস্ট + এক্সট্রা প্লেলিস্ট + ম্যানুয়াল চ্যানেল একত্রে লোড
+    async function loadAllPlaylists(showToastMsg = true) {
+        if (isLoading) return;
         isLoading = true;
-        showToast("Loading permanent playlist...", 1500);
+        if (showToastMsg) showToast("Loading all playlists...", 1500);
+        
+        let allRemoteChannels = [];
+        
+        // 1. Load fixed playlist
         try {
-            const response = await fetch(FIXED_PLAYLIST.url);
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            const text = await response.text();
-            const remoteChannels = parseM3U(text);
-            // ম্যানুয়ালি যোগ করা চ্যানেলগুলো রাখার জন্য (isManual ফ্ল্যাগ থাকবে)
-            const existingManual = allChannels.filter(ch => ch.isManual);
-            const combined = [...remoteChannels, ...existingManual];
-            // ডুপ্লিকেট ইউআরএল বাদ
-            const uniqueMap = new Map();
-            combined.forEach(ch => {
-                if (!uniqueMap.has(ch.url)) uniqueMap.set(ch.url, ch);
-            });
-            allChannels = Array.from(uniqueMap.values());
-            saveChannelsToLocal();
-            renderUI();
-            showToast(`Loaded ${allChannels.length} channels (including manual)`, 2000);
-        } catch (err) {
-            console.error(err);
-            showToast("Failed to load default playlist. Using local cache.", 3000);
-            // লোকাল ক্যাশে থাকলে সেটা দেখাবে
-            const stored = localStorage.getItem(STORAGE_CHANNELS_KEY);
-            if (stored) {
-                try {
-                    allChannels = JSON.parse(stored);
-                    renderUI();
-                } catch(e) {}
+            const res = await fetch(FIXED_PLAYLIST.url);
+            if (res.ok) {
+                const text = await res.text();
+                const channels = parseM3U(text);
+                allRemoteChannels.push(...channels);
+                if (showToastMsg) showToast(`Loaded ${channels.length} from ${FIXED_PLAYLIST.name}`, 1000);
+            }
+        } catch(e) { console.error("Fixed playlist error:", e); }
+
+        // 2. Load extra playlists
+        for (const pl of extraPlaylists) {
+            try {
+                const res = await fetch(pl.url);
+                if (res.ok) {
+                    const text = await res.text();
+                    const channels = parseM3U(text);
+                    allRemoteChannels.push(...channels);
+                    if (showToastMsg) showToast(`Loaded ${channels.length} from ${pl.name}`, 1000);
+                } else throw new Error(`HTTP ${res.status}`);
+            } catch(e) {
+                console.error(`Failed to load ${pl.name}:`, e);
+                if (showToastMsg) showToast(`Failed: ${pl.name}`, 1500);
             }
         }
+
+        // 3. Merge with manual channels
+        const existingManual = allChannels.filter(ch => ch.isManual);
+        const combined = [...allRemoteChannels, ...existingManual];
+        const uniqueMap = new Map();
+        combined.forEach(ch => {
+            if (!uniqueMap.has(ch.url)) uniqueMap.set(ch.url, ch);
+        });
+        allChannels = Array.from(uniqueMap.values());
+        saveChannelsToLocal();
+        renderUI();
         isLoading = false;
+        if (showToastMsg) showToast(`Total ${allChannels.length} channels loaded`, 2000);
+    }
+
+    // এক্সট্রা প্লেলিস্ট ম্যানেজমেন্ট
+    function saveExtraPlaylists() {
+        localStorage.setItem(STORAGE_PLAYLISTS_KEY, JSON.stringify(extraPlaylists));
+        renderPlaylistList();
+    }
+
+    function addExtraPlaylist(name, url) {
+        name = name.trim();
+        url = url.trim();
+        if (!name || !url) { showToast("Name and URL required"); return; }
+        if (extraPlaylists.some(p => p.url === url)) { showToast("Playlist already exists"); return; }
+        extraPlaylists.push({ name, url });
+        saveExtraPlaylists();
+        loadAllPlaylists(true);
+    }
+
+    function removeExtraPlaylist(index) {
+        extraPlaylists.splice(index, 1);
+        saveExtraPlaylists();
+        loadAllPlaylists(true);
+    }
+
+    function renderPlaylistList() {
+        if (extraPlaylists.length === 0) {
+            playlistListDiv.innerHTML = '<div class="small-note">No extra playlists. Add one above.</div>';
+            return;
+        }
+        let html = '';
+        extraPlaylists.forEach((pl, idx) => {
+            html += `
+                <div class="playlist-item">
+                    <span class="playlist-name"><i class="fas fa-link"></i> ${escapeHtml(pl.name)}</span>
+                    <button class="remove-playlist" data-index="${idx}"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            `;
+        });
+        playlistListDiv.innerHTML = html;
+        document.querySelectorAll('.remove-playlist').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const idx = parseInt(btn.dataset.index);
+                removeExtraPlaylist(idx);
+            });
+        });
     }
 
     function saveChannelsToLocal() {
@@ -335,7 +422,6 @@
     function escapeHtml(str) { return String(str).replace(/[&<>]/g, m => m === '&' ? '&amp;' : m === '<' ? '&lt;' : '&gt;'); }
     function escapeAttr(str) { return String(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;'); }
 
-    // ম্যানুয়ালি চ্যানেল যোগ
     function addSingleChannel() {
         let name = chName.value.trim();
         let url = chUrl.value.trim();
@@ -353,17 +439,16 @@
         showToast(`Added ${name}`);
     }
 
-    // রিসেট: শুধু ম্যানুয়াল চ্যানেল ডিলিট (প্লেলিস্ট রিলোড)
     function resetAll() {
-        if (confirm("⚠️ Delete all manually added channels? The default playlist will be reloaded.")) {
-            // কেবল ম্যানুয়াল চ্যানেল বাদ দিয়ে আবার প্লেলিস্ট লোড করি
+        if (confirm("⚠️ Delete all manually added channels and extra playlists? Default playlist will remain.")) {
             allChannels = [];
+            extraPlaylists = [];
             saveChannelsToLocal();
-            loadFixedPlaylist(); // রিলোড করে ডিফল্ট প্লেলিস্ট আবার ফেচ করবে
+            saveExtraPlaylists();
+            loadAllPlaylists(true);
         }
     }
 
-    // লোকাল .m3u ফাইল মার্জ
     function loadLocalFile(file) {
         const reader = new FileReader();
         reader.onload = e => {
@@ -380,16 +465,24 @@
         reader.readAsText(file);
     }
 
-    // প্রাথমিক লোড
+    // ইনিশিয়ালাইজেশন
     function init() {
-        const stored = localStorage.getItem(STORAGE_CHANNELS_KEY);
-        if (stored) {
+        // লোড এক্সট্রা প্লেলিস্ট
+        const storedPlaylists = localStorage.getItem(STORAGE_PLAYLISTS_KEY);
+        if (storedPlaylists) {
+            try { extraPlaylists = JSON.parse(storedPlaylists); } catch(e) { extraPlaylists = []; }
+        } else { extraPlaylists = []; }
+        renderPlaylistList();
+
+        // লোড সংরক্ষিত চ্যানেল (যদি থাকে)
+        const storedChannels = localStorage.getItem(STORAGE_CHANNELS_KEY);
+        if (storedChannels) {
             try {
-                allChannels = JSON.parse(stored);
+                allChannels = JSON.parse(storedChannels);
                 renderUI();
             } catch(e) { allChannels = []; }
         }
-        loadFixedPlaylist(); // স্থায়ী প্লেলিস্ট ব্যাকগ্রাউন্ডে লোড হবে
+        loadAllPlaylists(true);
     }
 
     // ইভেন্ট লিসেনার
@@ -401,6 +494,15 @@
         e.target.value = '';
     });
     searchInput.addEventListener('input', (e) => { searchText = e.target.value; renderUI(); });
+    
+    addPlaylistBtn.addEventListener('click', () => {
+        const url = playlistUrlInput.value.trim();
+        if (!url) { showToast("Enter playlist URL"); return; }
+        let name = prompt("Enter a name for this playlist:", url.split('/').pop() || "Playlist");
+        if (name) addExtraPlaylist(name, url);
+        playlistUrlInput.value = '';
+    });
+    reloadAllBtn.addEventListener('click', () => loadAllPlaylists(true));
 
     init();
 </script>
