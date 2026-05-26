@@ -28,11 +28,13 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="Bangla",Ekushey TV
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="Bangla",ETV 2
 https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png" group-title="Bangla",Channel I
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Logo_of_Deepto_TV.svg/1280px-Logo_of_Deepto_TV.svg.png" group-title="Bangla",Deepto TV
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Logo_of_Deepto_TV.svg/1280px-Logo_of_Deepto_TV.svg.png" group-title="Bangla",Deepto TV 2
 https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/g27Qp4RD/Background-Eraser-20240628-105829130.png" group-title="Bangla",Ntv
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716-audio_113462_eng=113200-video=1692000.m3u8
@@ -42,11 +44,13 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-vid
 https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/News18_Bangla_Logo.svg/1280px-News18_Bangla_Logo.svg.png" group-title="Bangla",News 18 Bangla
 https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj" group-title="Religious",Saudi Quran
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj" group-title="Religious",Saudi Quran HD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AMLnZu_Gxy8ywjMY6_YPX-1uYtUGA56FOfDoBsH62-ekNA=s900-c-k-c0x00ffffff-no-rj" group-title="Religious",Saudi Quran SD
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 #EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CywdrFaZL.png" group-title="Religious",Madina Live
 https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
+#EXTINF:-1 tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CywdrFaZL.png" group-title="Religious",Saudi sunnah
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Animal_Planet_logo.svg/1280px-Animal_Planet_logo.svg.png" group-title="Documentary",Animal Planet HD
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8
@@ -64,7 +68,7 @@ https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Dd%20Bangla.png" group-title="Bangla",DD Bangla
 https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Bangla",ABP Ananda
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XqsSN3nR/ABP-Ananda-logo-with-website-29.webp" group-title="Bangla",ABP Ananda
 https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/1tmcNHW3/Star-Jalsha-HD.jpg" group-title="Bangla",Star Jalsha HD
 https://dhoomtv.xyz/live/P4B9TB9xR8/humongous2tonight/23218.ts
@@ -76,8 +80,6 @@ http://banglajagotv.livebox.co.in:80/banglajagohls/24x7.m3u8
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/vHzVRpML/download-(1).jpg" group-title="Bangla",R Plus News
 https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
-
-
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/tTNPLBMs/24-Ghanta.jpg" group-title="Bangla",TV9 Bangla
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/tTNPLBMs/24-Ghanta.jpg" group-title="Bangla",Zee 24 Ghanta
@@ -94,8 +96,6 @@ https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/47bdb49d-f6f3-4927-a9ea-12c4c5afc732/0.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/9x_media.png" group-title="Indian",MU | 9XM
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/9f1a3d57-4134-4f4c-95ea-2cb142ac63f8/0.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Live",#KODIPROP:inputstream.adaptive.license_key=1a75f9a2300f448089c6cdebeb97bbbd:606ae417e0e6cf4b0d353764e3140dbc
-https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561301/index.mpd
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/FFwSjdzS/Pogo.jpg" group-title="Kids",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/zBCLNtGZ/Duronto.jpg" group-title="Kids",Duck TV
@@ -110,8 +110,6 @@ https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 https://wildearth-plex.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg" group-title="Documentary",ACCU WEATHER
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1
-#EXTINF:-1 tvg-logo="" group-title="Live",#KODIPROP:inputstream.adaptive.license_key=2f4052e0dcb740b28b8fd49ee4ecd35a:e2e0d07b2767e46581c82cf87614e750
-https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560404/index.mpd
 #EXTINF:-1 tvg-logo="https://is.gd/imZMIp" group-title="News",DW NEWS
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8
 #EXTINF:-1 tvg-logo="https://is.gd/ywX5PG" group-title="News",CNN NEWS
@@ -138,9 +136,8 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/RZJmcSt6/9XM.jpg" group-title="News",News Max 2
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-
 # Source: SRC-ID:eb25061146813829500ee806
-#EXTINF:-1 tvg-logo="" group-title="Live",BD vs PAK
+#EXTINF:-1 tvg-logo="" group-title="Live",T Sports
 http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkLNzYmE3iWoT0RIUPh5dPx392smbo8bbbTfkUy2nWw&s=10" group-title="Live",IPL 2026
 http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8
@@ -172,10 +169,6 @@ http://premimum.online/live/jen12345/jen54321/114479.ts
 http://198.195.239.50:8095/WiLLow/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkLNzYmE3iWoT0RIUPh5dPx392smbo8bbbTfkUy2nWw&s=10" group-title="Live",IPL 2026
 http://27.124.71.27/Willow_Extra/index.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="Sports",Football World Cup 2026
-http://premimum.online/live/jen12345/jen54321/129703.ts
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="Sports",Football World Cup 2026
-http://premimum.online/live/jen12345/jen54321/1565.ts
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="Sports",Live Sports
 http://198.195.239.50:8095/Eurosport/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="Sports",PTV Sports
@@ -188,20 +181,9 @@ http://103.161.153.165:8000/play/a02f/index.m3u8
 https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad47832/level_3.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="Sports",Live Sports
 http://103.229.254.25:7001/play/a087/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted mtbs 0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="Sports",Sharq Game TV
-https://stream.snexus.co/live/SHARQ_GAME_TV/main_stream.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="Sports",T Sports
 https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/BTV%20National.png" group-title="Bangla",BTV National
-http://103.229.254.25:7001/play/a064/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/BTV%20National.png" group-title="Bangla",BTV Chattogram
-https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/BTV%20National.png" group-title="Bangla",BTV Sangsad
-https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4GdTIOJgWg5_BCr3ZDvEzBOMt6gt0QoybcQ&usqp=CAU" group-title="Bangla",BTV News
-https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/T%20Sports.png" group-title="Bangla",T Sports
-https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Gazi%20TV.jpg" group-title="Bangla",Gazi TV
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Maasranga%20TV.png" group-title="Bangla",Maasranga TV
@@ -248,12 +230,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/1728.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/TBN24.png" group-title="News",TBN 24 USA
 https://dog.dg21bd.com/TBN24WEBUSA/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Music",Music Bangla
-http://vmi3039524.contaboserver.net:5050/music/index.m3u8
-#EXTINF:-1 tvg-logo="://tplay.live/originals/bengali-beats/bengali-beats.png" group-title="Bangla",Bengla Beats
-https://tplay.live/originals/bengali-beats/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Bangla",Bengla
-https://poweredbyjibon.myziboplay.xyz/zibo/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Gfw89mC/20240804-033102.png" group-title="Religious",Peace TV Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/598TYnC/20240827-092020.png" group-title="Religious",Peace TV English
@@ -262,7 +239,7 @@ https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f71f649abc51984f09076ef6ee5c0d0c" group-title="Live",RTV Islam
 https://tvsen6.aynascope.net/rtvislam/index.m3u8?e=1762417832&u=5448cf91-5746-4e78-a357-d45dca5c1ab9&token=9aeaf35d6650b5eab457a136bd251921
-#EXTINF:-1 tvg-logo="" group-title="Religious",Islamic TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Islamic_TV_New_Logo.png/250px-Islamic_TV_New_Logo.png" group-title="Religious",Islamic TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/1724.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7jrjkW1/20240813-112630.png" group-title="Religious",Madani TV
 https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8
@@ -270,14 +247,7 @@ https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/makkahtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rtkWYHV/20240827-092043.png" group-title="Religious",AL Sunnah TV
 http://m.live.net.sa:1935/live/sunnah/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Religious",EWTN TV
-https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Religious",God TV
-https://hlsb-us.god.tv/GODTV/USA-480.m3u8
-#EXTINF:-1 tvg-logo="https://bigcchubchat.pages.dev/837.png" group-title="Indian",Hare Krsna
-https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd
-#EXTINF:-1 tvg-logo="" group-title="Religious",Arihant TV
-https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8
+
 #EXTINF:-1 tvg-logo="" group-title="Bangla",G-Serise
 https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CPmLfGs/Amar-Bangla.png" group-title="Bangla",Amar Bangla
@@ -294,9 +264,9 @@ http://103.229.254.25:7001/play/a076/index.m3u8
 http://103.161.153.165:8000/play/a03k/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Bangla",R Plus Gold
 https://cdn-4.pishow.tv/live/1231/1231_1.m3u8
-#EXTINF:-1 tvg-logo="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDDZsiBeWCSjxPVZv0hLJ3dQmW5aAA-8mIeuB88P0SUdrjBBSFEHQ2ZXiddKtVfnJCQ.png" group-title="Bangla",AAKASH AATH
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Aakash_Aath_Logo.png/330px-Aakash_Aath_Logo.png" group-title="Bangla",AAKASH AATH
 https://cdn-4.pishow.tv/live/969/master.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Bangla",Bangla Movies
+#EXTINF:-1 tvg-logo="https://etv-gspn-bangla.fandom.com/extensions-ucp/mw143/fandom/AgeDeclaration/resources/images/adult.png" group-title="Bangla",Bangla Movies
 https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Jalshamovieshd.jpg" group-title="Movies",Jalsha Movies
 http://198.195.239.50:8095/JalshaMovies/tracks-v1a1/mono.m3u8
@@ -520,9 +490,10 @@ https://vhoichoi.viewlift.com/Renditions/20240918/1726653787189_88a8sna0ns9a8s7t
 https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="News",Star News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
-#EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1772728412891.png" group-title="Live",Islamic TV
+#EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1772728412891.png" group-title="Religious",Islamic TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8
-#EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png" group-title="Live",Channel 9 HD
+
+#EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png" group-title="Bangla",Channel 9 HD
 https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png" group-title="Movies",Cineedge HD
 https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8
@@ -570,6 +541,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8
 https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png" group-title="Movies",Originals
 https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085745609.png" group-title="Sports",Crazy Ex
 https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086478755.png" group-title="Live",Delicious
@@ -577,6 +549,7 @@ https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087459461.png" group-title="Live",Program Promo
 https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8
 **********************************************************
+
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.postimg.cc/8cYLb3kY/Star-Sports-1-HD.jpg",Star Sports 1 HD
 http://nayatv.ydns.eu:80/xfireflix/flixfire/12472.ts
@@ -897,10 +870,6 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 
 
 #EXTINF:-1 group-title="Indian Banglan Bangla" tvg-logo="https://i.postimg.cc/V6q8yDDy/Star-Jalsha-HD.jpg",Star Jalsha HD
-http://starshare.st/live/Jahid2025/0470070309/98883.ts
-#EXTINF:-1 group-title="Indian Banglan Bangla" tvg-logo="https://i.postimg.cc/V6q8yDDy/Star-Jalsha-HD.jpg",Star Jalsha HD
-http://starshare.st/live/Jahid2025/0470070309/8540.ts
-#EXTINF:-1 group-title="Indian Banglan Bangla" tvg-logo="https://i.postimg.cc/V6q8yDDy/Star-Jalsha-HD.jpg",Star Jalsha HD
 http://watchIndian Bangla.net:8880/live/54355/61270/2281.ts
 #EXTINF:-1 group-title="Indian Banglan Bangla" tvg-logo="https://i.postimg.cc/V6q8yDDy/Star-Jalsha-HD.jpg",Star Jalsha HD
 http://smart.bengaldigital.live/Star-jalsha/index.m3u8
@@ -984,12 +953,6 @@ https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91e
 
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/rmBYB7GQ/Bhojpuri-Cinema.jpg",Bhojpuri Cinema
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
-
-#EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/rmBYB7GQ/Bhojpuri-Cinema.jpg",Bollywood HD
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
-
-#EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/rmBYB7GQ/Bhojpuri-Cinema.jpg",Bollywood Classic HD
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
 
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://i.postimg.cc/J4n7YN2D/Colors.jpg",Dangal
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8
@@ -1274,20 +1237,10 @@ https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/e3cYtrb.jpg",Yahoo News
 https://yahoo-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Religion" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",Hindu Channel
-https://live20.bozztv.com/giatvplayout7/giatv-209618/index.m3u8
 
-#EXTINF:-1 group-title="Religion" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",Iqra Bangla
+#EXTINF:-1 group-title="Religious" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",Iqra Bangla
 https://ap02.iqplay.tv:8082/iqb8002/iq53la/chunks.m3u8
 
-#EXTINF:-1 group-title="Religion" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",Sada TV
-http://cdn12.henico.net:8080/live/sadatv/index.m3u8
-
-#EXTINF:-1 group-title="Religion" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",Sanskar TV
-https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
-
-#EXTINF:-1 group-title="Religion" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",ZB Bhakti
-https://server.zillarbarta.com/zbbhakti/index.m3u8
 
 #EXTINF:-1 group-title="Pakistan" tvg-logo="https://i.postimg.cc/ZnD8CtvQ/BBC.jpg",Aur Life HD
 http://124.109.47.101/hls/stream1.m3u8
@@ -1309,701 +1262,3 @@ https://stream717.duckdns.org/hls/stream1.m3u8
 https://video.primexsports.com/suchnews/live/playlist.m3u8
 
 *****************************************************************
-
-#EXTM3U
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",DD Sports SD (1080p)
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 1 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 1 HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 2 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%202.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 2 HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%202%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 3 Hindi (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 3 Hindi HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 4 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%204.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 4 Telugu (1080p)
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%204%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Star Sports 1 HD (1080p)
-http://103.253.18.58:8000/live/play/a00m.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Star Sports 1 Hindi (576p)
-http://103.253.18.58:8000/live/play/a03o.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Star Sports 2 Hindi HD (1080p)
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",30A Golf Kingdom (720p)
-https://30a-tv.com/feeds/vidaa/golf.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",:Šport (1080p)
-http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ACCDN (1080p)
-https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ACI Sport TV (1080p)
-https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Adjarasport 1
-https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ADO TV (720p)
-https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Africa 24 Sport (1080p)
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alfa Sport (1080p) [Not 24/7]
-https://dev.aftermind.xyz/live/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass Five (1080p)
-https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass Four (1080p)
-https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass One (1080p)
-https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass Seven (1080p)
-https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass SHOOF (1080p)
-https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass SHOOF 2 (1080p)
-https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass Six (1080p)
-https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass Three (1080p)
-https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Alkass Two (1080p)
-https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",AntenaSport (1280p) [Not 24/7]
-https://hls.rundletv.eu.org/live/LIVE$AntenaSport/6.m3u8/Level/300720051?end=END&start=LIVE.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",AS3 Sport TV (1080p)
-https://streamtv.as3sport.online:3394/hybrid/play.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ATG Live (720p)
-https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Auto Motor Sport
-https://jmp2.uk/plu-5f760c3d41aa2d0007bfde19.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Awapa Sports TV (1080p) [Not 24/7]
-https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Bahrain Sports 1 (720p) [Not 24/7]
-https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Bahrain Sports 2 (720p) [Not 24/7]
-https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Barca TV
-https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",beIN Sports XTRA en Espanol (1080p)
-https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",BEK TV Sports West (720p)
-https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Bellator MMA
-https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Billiard TV (1080p)
-https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Canal do Inter (720p) [Not 24/7]
-https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CazeTV (1080i)
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CBC Sport HD [Geo-blocked]
-https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CBS Sports Golazo Network (720p)
-https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CBS Sports HQ (1080p) [Geo-blocked]
-https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CCTV-5 (720p)
-http://74.91.26.218:82/live/cctv5hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CCTV-5+ (720p)
-http://192.151.150.154/live/cctv5p.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CCTV-16 (1080p)
-http://74.91.26.218:82/live/cctv16hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",CDN Deportes (720p)
-http://200.125.170.122:8000/play/a03j/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Claro Sports Mexico
-https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ColimdoT TV (720p)
-https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Combate Global
-https://stream.ads.ottera.tv/live/playlist.m3u8?network_id=960.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Cricket Gold (1080p)
-https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ČT Sport (720p)
-http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",DAZN Combat (1080p)
-https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",DD Sports SD (1080p)
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Deportes TVC (1080p)
-http://162.19.255.233:8080/live/play/UNbAl57p9hXZClOu56FCTYXmD-MOS3u5IUkeXPpBt80/m3u8.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Đồng Nai 2 (480p) [Not 24/7]
-http://118.107.85.4:1935/live/smil:DNTV2.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",DraftKings Network (1080p)
-https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",DSports Uruguay
-https://cors-proxy.cooks.fyi/http://147.135.114.221:8001/play/a00m/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Dyn Sport Mix (720p)
-https://jmp2.uk/plu-6866525c8a412a0e95c438b4.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Equidia (1080p)
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ERT Sports 1 (1080p)
-http://hbbtvapp.ert.gr/live/stream.php/v/vid_ertsports_mpeg.2ts.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ERT Sports 2 (1080p)
-http://hbbtvapp.ert.gr/live/stream.php/v/vid_ertplay2_mpeg.2ts.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ESPN8 The Ocho (1080p)
-https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ESPN Deportes (360p)
-http://Tdo@origin.thetvapp.to/hls/espn-deportes/mono.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Esport3 (1080p) [Not 24/7]
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Esport3 (1080p) [Geo-blocked]
-https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",F1 Channel (720p)
-https://jmp2.uk/plu-65c69ee3d77d450008c80438.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",F1 Channel (1080p) [Geo-blocked]
-https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FanDuel Racing
-https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FanDuel TV (720p)
-https://d2jl8r92tdc3f1.cloudfront.net/out/v1/59419700344b4625b7cb0693ba265ea3/TVGindex_1.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FB TV
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ (720p)
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ French (720p)
-https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ German (720p)
-https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ Hispanic America (720p)
-https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ Italy (720p)
-https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ Portuguese (720p)
-https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXJ0dWd1ZXNlX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ Spain (720p)
-https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ United States (720p)
-https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FIFA+ Women (720p)
-https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Fight Network (1080p)
-https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FITE 24/7 (1080p)
-https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FloHockey 24/7 (1080p)
-https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FloRacing 24/7 (1080p)
-https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Fox Deportes (1280p)
-https://cors-proxy.cooks.fyi/http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FOX Sports (1080p)
-https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FOX Sports (1080p) [Geo-blocked]
-https://amg02855-foxsports-amg02855c1-xumo-us-1755.playouts.now.amagi.tv/Fox-Sports-AmazonNews/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FOX Sports (720p)
-https://jmp2.uk/plu-5a74b8e1e22a61737979c6bf.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Fox Sports (720p)
-https://live-manifest.production-public.tubi.io/live/6035c7fd-efff-4ec7-93dc-aa0c7a58ba47/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Fox Sports 1 (1280p)
-https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Fox Sports 2 (720p) [Not 24/7]
-https://tvpass.org/live/live/FoxSports2/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FTF Sports (720p)
-https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FTV (720p)
-https://master.tucableip.com/ftvhd/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",fubo Sports Network (1080p)
-https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Fuel TV (1080p)
-https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",FUEL TV (1080p)
-https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Fuel TV (1080p)
-https://amg01074-fueltv-amg01074c1-stirr-us-4214.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Futbol (1080p)
-https://live.teleradiocom.tj/8/3m.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Game Channel
-http://49.113.179.174:4022/live/udp/238.125.1.36:5140.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Game+ (720p)
-https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Gaora Sports (544p)
-http://cdns.jp-primehome.com:8000/live/zhongying/live/playlist.m3u8?cid=cs17.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ge Fast (1080p)
-https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",GEM Fit
-https://ca-rt.onetv.app/live/gemfit/index-0.m3u8?token=onetv202.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",GEM Sport
-https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",GLORY Kickboxing (720p)
-https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",GLORY Kickboxing
-https://jmp2.uk/plu-5417a212ff9fba68282fbf5e.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Gol Classics (1080p)
-https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Golf Channel (1080p) [Not 24/7]
-https://tvpass.org/live/live/GolfChannel/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Golf Channel Latin America
-http://181.114.57.246:4000/play/BHGDIhvdyuw/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Golf Network (544p)
-http://cdns.jp-primehome.com:8000/live/zhongying/live/playlist.m3u8?cid=cs03.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Horse TV (720p)
-https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",HTSpor TV (1080p)
-https://ciner.daioncdn.net/live/ht-spor/ht-spor.m3u8?app=web.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",HTV Thể thao (1080p) [Geo-blocked]
-https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",INTROUBLE (1080p)
-https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",IRIB3
-https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",ITV Deportes (720p)
-https://thm-it-roku.otteravision.com/thm/it/it.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",J Sports 1 (544p)
-http://cdns.jp-primehome.com:8000/live/zhongying/live/playlist.m3u8?cid=bs18.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",J Sports 2 (544p)
-http://cdns.jp-primehome.com:8000/live/zhongying/live/playlist.m3u8?cid=bs19.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",J Sports 3 (544p)
-http://cdns.jp-primehome.com:8000/live/zhongying/live/playlist.m3u8?cid=bs21.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",J Sports 4 (544p)
-http://cdns.jp-primehome.com:8000/live/zhongying/live/playlist.m3u8?cid=bs22.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Jordan Sport (1080p)
-http://93.184.10.248/JordanSport/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",K19
-https://1853185335.rsc.cdn77.org/K192/tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",KCMN-LD6 (1080p)
-https://cdn-uw2-prod.m3u8v2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",KHL (720p)
-http://31.148.48.15/KHL_TV/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",KHL Prime (720p)
-http://31.148.48.15/KHL_TV_HD/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",KTV Sport (1080p)
-https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",KTV Sport Plus (1080p)
-https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",L1 Max (720p)
-https://live20.bozztv.com/akamaissh101/ssh101/l1maxhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",L'Equipe (1080p)
-https://dshn8inoshngm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gac2i63dmu8b7/LEquipe_FR.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Lacrosse TV (720p)
-https://1840769862.rsc.cdn77.org/FTF/LSN_SCTE.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",LaLiga Hypermotion (1080p)
-http://latam-cache-sv2-cdn.latamlive.net/LA_LIGA_SMARTBANK_IP_ENC_LIVE/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",LaLiga TV
-http://162.19.255.233:8080/live/play/UNbAl57p9hXZClOu56FCTZID4SFOqZLZ81NguVP-JxM/m3u8.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Leaderboard Sports News (1080p)
-https://amg02703-amg02703c20-samsung-au-9093.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Lóverseny közvetítés (420p)
-http://87.229.103.60:1935/liverelay/loverseny2.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",LRT Plius (1080p) [Geo-blocked]
-https://stream-live.lrt.lt/plius/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Lucha Libre AAA
-https://jmp2.uk/plu-5c01df1759ee03633e7b272c.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",M4 Sport
-http://88.212.15.19/live/m4_hun/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",M-Net Sport (720p)
-http://ares.mnet.mk/hls/mnet-sport.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MadeinBO TV (1080p)
-https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Match! Boets (576p)
-http://tmptv.sunduk.tv/CH51/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Match! Strana (720p)
-http://31.148.48.15/Match_Strana/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Meridiano TV (480p)
-https://e1.viginet.vectormax.com:5210/quickstart/114-934-21/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Midpen Media Center Youth Education and Sports Channel 28 (720p)
-https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MLB Channel (1080p) [Geo-blocked]
-https://pb-2y9ox4r1fy550.akamaized.net/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MMA TV.com (1080p)
-https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MMA-TV (576p)
-http://31.148.48.15/M1_Global/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MNB Sport (1080p)
-https://live.mnb.mn/hls/mnb_sport.stream.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Monterrico TV (1080p) [Not 24/7]
-https://www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",More Than Sports TV (1080p)
-https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MSG (1080p) [Not 24/7]
-https://tvpass.org/live/live/msg-madison-square-gardens/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MSG Plus (720p) [Not 24/7]
-https://tvpass.org/live/live/msg-plus/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MSG SportsZone (720p)
-https://d2a31kzot4f8t3.cloudfront.net/v1/amc_msgsportszone_1/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Multivisión Sports (720p) [Not 24/7]
-https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",MUTV (720p)
-https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Nautical Channel (720p)
-https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NBA TV (1080p) [Geo-blocked]
-https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NBA TV Canada (1080p)
-http://user.scalecdn.co:8080/live/54706135/09221986/3092.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NBC Sports Bay Area (720p) [Not 24/7]
-https://tvpass.org/live/live/nbc-sports-bay-area/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NBC Sports Boston (1080p) [Not 24/7]
-https://tvpass.org/live/live/nbc-sports-boston/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NBC Sports NOW (1080p)
-https://d4whmvwm0rdvi.cloudfront.net/live/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NBC Sports Philadelphia (720p) [Not 24/7]
-https://tvpass.org/live/live/nbc-sports-philadelphia/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NFL Channel (1080p) [Geo-blocked]
-https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NFL RedZone (720p) [Not 24/7]
-https://tvpass.org/live/live/NFLRedZone/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",NHRA TV (1080p)
-https://d265y4sk8257lt.cloudfront.net/nh.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Nittele G Plus (544p)
-http://cdns.jp-primehome.com:8000/live/zhongying/live/playlist.m3u8?cid=cs02.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Nudge Sports Channel (1080p)
-https://streams.comclark.com/live_input/nudge_sports/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Olympic Channel [Geo-blocked]
-https://ocshls-2-olympicchannel.akamaized.net/ocshls/OCTV_32.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Oman Sports TV (1080p) [Not 24/7]
-https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",One Golf (720p)
-http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Ovacion TV (720p) [Not 24/7]
-http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Overtime (1080p)
-https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pac 12 Insider (1080p)
-https://pac12-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",PBR RidePass (720p)
-https://jmp2.uk/plu-60d39387706fe50007fda8e8.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Persiana Fight
-https://fighthls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",PGA Tour (1080p)
-https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pluto TV E-Sports
-https://jmp2.uk/plu-5ff3934600d4c7000733ff49.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pluto TV Futbol Para Fans (1080p)
-https://jmp2.uk/plu-63c6e37e636b7e0007ccb635.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pluto TV Sport
-https://jmp2.uk/plu-6357f3de3643ba0007bc0b50.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pluto TV Sport
-https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pluto TV Sport
-https://jmp2.uk/plu-6357f33cb51d2d00077927c6.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Pluto TV Sport
-https://jmp2.uk/plu-62cd74e38f6f0d000798cd93.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Poker Go (1080p)
-https://aegis-cloudfront-1.tubi.video/b474c2bb-b34d-4c53-a94b-c4ffe884563c/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premier Sports (1080p)
-https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premier Sports 2 (1080p)
-https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 1
-https://stm.sinalmycn.com/live/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 2
-https://stm.sinalmycn.com/live/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 3
-https://stm.sinalmycn.com/live/20006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 4
-https://stm.sinalmycn.com/live/20009/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 5
-https://stm.sinalmycn.com/live/20012/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 6
-https://stm.sinalmycn.com/live/20015/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 7
-https://stm.sinalmycn.com/live/20018/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Premiere FC 8
-https://stm.sinalmycn.com/live/20021/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",PRO Sport International
-https://proshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",PTV Sports (1080p)
-http://103.250.28.74:8000/play/a019/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",QazSport (480p) [Geo-blocked]
-https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",RACER International (1080p)
-https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Racer Network (1080p)
-https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Racer Select (1080p)
-https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Racing.com (720p)
-https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Rai Sport 2
-http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Rai Sport HD (1080p)
-https://srv1.adriatelekom.com/RaiSport/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Rally TV (1080p)
-https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Realitatea Sportiva (720p)
-https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Realmadrid TV (720p)
-https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV (1080p)
-https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV (1080p)
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV AU (1080p)
-https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV BR (1080p)
-https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV DE (1080p)
-https://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV ES (1080p)
-https://886bd3fbc782459f8de7555d32d7e9ce.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-957-WORBLATAMESFAST-WHALETVPLUS/957/whaletvplus/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV UK (1080p)
-https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Red Bull TV US (1080p)
-https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Retake E-sport Live (720p)
-https://jmp2.uk/plu-66fd1338ec9d6d00081e0443.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Roku Sports Channel (1080p)
-https://d3ialx0k0mla2a.cloudfront.net/Roku_Sports_Channel.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",RTA Sport (1080p)
-https://rtatv.akamaized.net/live/Content/HLS/Live/channel(RTA3).m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",RTI La 3 (1080p) [Not 24/7]
-http://69.64.57.208/la3/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",RTSH Sport (1080p)
-http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Russian Extreme (576p)
-http://tmptv.sunduk.tv/CH67/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",S Sport
-https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/profile_0/chunklist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",S Sport 2
-https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",San Marino RTV Sport (720p)
-https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sharjah Sports (1080p) [Geo-blocked]
-https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Shooting Sports Life (1080p)
-https://linear-1312.frequency.stream/dist/stirr/1312/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SKI TV (1080p) [Not 24/7]
-https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sky Racing 1 (720p)
-https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sky Racing 2 (720p)
-https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sky Thoroughbred Central (720p) [Geo-blocked]
-https://skylivetab-new.akamaized.net/hls/live/2038782/stcsd/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SMG Football Channel
-http://49.113.179.174:4022/live/udp/238.125.2.142:5140.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 1 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 1 HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 2 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%202.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 2 HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%202%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 3 Hindi (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 3 Hindi HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 4 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%204.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sony Sports Ten 4 Telugu (1080p)
-https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%204%20HD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SOS Kanal Plus (720p)
-https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Speed Sport 1 (1080p)
-https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sport 1 (1280p)
-http://46.149.191.217:9005/live/play/a017.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sport Fishing TV (1080p)
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sport Italia (1080p)
-https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sportdigital FUSSBALL HD (1080p)
-https://live20.bozztv.com/akamaissh101/ssh101/sddd1hdde/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sportitalia 24 (720p) [Geo-blocked]
-https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sportitalia Live 24
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sportitalia Motori (720p) [Geo-blocked]
-https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sportitalia Solocalcio (1080p)
-https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sportoutdoor.tv
-https://gto2000-sportoutdoortv-1-it.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sports Connect (720p)
-https://streamdot.broadpeak.io/cff02a74da64d1459391ce1f72d58f1a/afxpstr/SportsConnect/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sports First (1080p)
-https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Sports TV (720p) [Geo-blocked]
-https://live.sportstv.com.tr/hls/low/sportstv.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SporTV (1280p)
-https://stm.sinalmycn.com/live/21000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SporTV 2 (1280p)
-https://stm.sinalmycn.com/live/21003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SporTV 2 Alternativo (720p)
-https://stm.sinalmycn.com/19025/video.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SporTV 3 (1080p)
-https://stm.sinalmycn.com/live/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SporTV Alternativo (720p)
-https://stm.sinalmycn.com/19024/video.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SPOTV (720p)
-http://primestreams.tv:826/live/mookie22/49aV7nBsK4/119515.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",SPOTV 2 (1080p)
-http://primestreams.tv:826/live/mookie22/49aV7nBsK4/119516.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Stadium (720p)
-https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Star Sports 1 HD (1080p)
-http://103.253.18.58:8000/live/play/a00m.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Star Sports 1 Hindi (576p)
-http://103.253.18.58:8000/live/play/a03o.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Star Sports 2 Hindi HD (1080p)
-http://103.157.248.140:8000/play/a01m/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Strongman (720p)
-https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Strongman Champions League (720p)
-https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Swerve Combat (1080p)
-https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",T Sports (720p)
-https://tvsen7.aynaott.com/tsportshd/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tabii Spor 6 (720p) [Geo-blocked]
-https://vbtob9hyq58eiophct5qctxr2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Talent TV (720p)
-http://live.talenttv.lk:8080/hls/x8kd5n3tm8e8lsv/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",talkSPORT (1080p)
-https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TDM Sports Ch. 93 (720p)
-https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tele Rebelde (480p) [Not 24/7]
-https://tv.picta.cu/telerebelde/telerebelde_1.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Teledeporte (1080p)
-http://92.176.119.180:2095/live/play/a16t.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Teletrak (720p)
-https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Ten Sports Pakistan
-http://121.91.61.106:8000/play/a04h/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tennis Channel (1080p)
-https://cdn-ue1-prod.m3u8v2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TennisChannel 2 (720p)
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",The Cycling Channel
-https://cyclingtv.playout.vju.tv/cyclingtv/main.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Thmanyah 1 (1080p)
-https://dflive.app.tc/20.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Thmanyah 3 (1080p)
-https://dflive.app.tc/61.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tigo Sports (720p) [Geo-blocked]
-https://live20.bozztv.com/akamaissh101/ssh101/livetigocr/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tigo Sports (1080p)
-http://162.19.255.233:8080/live/play/UNbAl57p9hXZClOu56FCTf_5weWAERKDgrt9JpvlAiI/m3u8.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tigo Sports (720p)
-https://live.enhdtv.com:8081/8160/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tigo Sports TV El Salvador (720p) [Geo-blocked]
-https://channel03.tigosports.com.sv/out/v1/31f36d52d558475ca18799d8ca5e4b40/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tigo Sports+
-http://45.170.130.224:8000/play/a04i/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TJK TV (1080p)
-https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TJK TV 2 (1080p) [Not 24/7]
-https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TNC Sports (1080p)
-https://streamer1.nexgen.bz/TNC_SPORTS/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Tour Spot TV (1280p) [Not 24/7]
-https://fox.hostlagarto.com:8081/toursporttv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TR Sport (480p)
-https://livetr.teleromagna.it/mia/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Trace Sport Stars (Australia) (1080p)
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TRT Spor (1080p) [Geo-blocked]
-https://tv-trtspor1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TRT Spor Yildiz (1080p) [Geo-blocked]
-https://tv-trtspor2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TSN1 (1080p) [Not 24/7]
-https://tvpass.org/live/live/tsn1/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TSN2 (1080p) [Not 24/7]
-https://tvpass.org/live/live/tsn2/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TSN3 (1080p) [Not 24/7]
-https://tvpass.org/live/live/tsn3/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TSN4 (720p) [Not 24/7]
-https://tvpass.org/live/live/tsn4/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TSN5 (1080p) [Not 24/7]
-https://tvpass.org/live/live/tsn5/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TSN The Ocho (1080p)
-https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Turf Movil (720p)
-https://tvturf4.janus.cl/live/playlist/stream.m3u8?d=w&id=.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Türkmenistan Sport (406p) [Not 24/7]
-https://alpha.tv.online.tm/hls/ch004.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVMatic Fight (720p)
-http://cdn.tvmatic.net/fight.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVMsport+ (1080p)
-https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVR Sport
-https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVRI Sport (720p)
-https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVS Bowling Network (720p)
-https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVS Boxing (360p)
-https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVS Classic Sports (360p)
-https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVS Sports (720p) [Not 24/7]
-https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVS Sports Bureau (720p)
-https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVS Turbo (360p)
-https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TVS Women Sports (720p)
-https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TyC Sports (1080p)
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",TyC Sports USA
-http://45.170.130.224:8000/play/a020/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",U&Transport (1080p) [Geo-blocked]
-https://amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk-36uja.amagi.tv/playlist/amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",U&Transport (720p)
-https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Unbeaten Sports Channel (1080p)
-https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",USA Network East (1080p) [Not 24/7]
-https://tvpass.org/live/live/USANetworkEast/hd.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Varzesh TV
-https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Viaplay TV (Finland) (720p) [Not 24/7]
-https://live-fi.tvkaista.net/live/viaplay-tv/live.m3u8?hd=true.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",viju+ Sport (576p)
-http://tmptv.sunduk.tv/CH131/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",VITAL Drive
-https://autopilot.catcast.tv/content/37909/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",W14DK-D 14.5 All Sports Television Network
-https://2-fss-2.streamhoster.com/pl_118/204972-2205186-1/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Willow Sports (1080p)
-https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Win Sports (1080p)
-http://190.60.40.34:8001/live/play/a0ef.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Win+ Futbol
-http://190.60.40.34:8001/live/play/a02r.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Women's Sports Network (1080p)
-https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",World of Freesports (1080p)
-https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",World of Freesports (1080p)
-https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",World Poker Tour
-https://jmp2.uk/plu-5ad9b7aae738977e2c312132.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",World Poker Tour (1080p)
-https://d39g1vxj2ef6in.cloudfront.net/live/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/playlist.m3u8?ads.xumo_channelId=88883102.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",World Poker Tour (1080p)
-https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Xtrem Sports (1080p)
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Yahoo! Sports Network (1080p)
-https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Zoy TV Sports 1 (1080p) [Not 24/7]
-https://mio.zoymilton.com/ZoyEventos/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Астрахань.Ru Sport (720p)
-https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Беларусь 5 (1080p) [Not 24/7]
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Беларусь 5 Интернет (1080p) [Not 24/7]
-https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",Бокс ТВ (720p)
-http://31.148.48.15/Boks_TV/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",МАТЧ! Арена (720p)
-http://31.148.48.15/Match_Arena_HD/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",МАТЧ! Игра (720p)
-http://31.148.48.15/Match_Igra_HD/index.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",СТАРТ Триумф
-https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8
-#EXTINF:-1 tvg-logo="auto" group-title="Sports",УТРК Спорт (480p) [Not 24/7]
-https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
-********************************************************
-
-
-
-
-
