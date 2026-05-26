@@ -1,6 +1,6 @@
 #EXTM3U
 # Source: SRC-ID:8a0a955eed047000f93213bc
-#EXTINF:-1 tvg-logo="https://en.wikipedia.org/wiki/T_Sportshttps://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/250px-T_Sports_logo.svg.png" group-title="Sports",T Sports
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/T_Sports_logo.svg" group-title="Sports",T Sports
 https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://en.wikipedia.org/wiki/T_Sportshttps://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/250px-T_Sports_logo.svg.png" group-title="Sports",T Sports 2
 http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8
