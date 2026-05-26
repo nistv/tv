@@ -1,0 +1,6 @@
+{
+  "sources": [
+    { "id": "fixed-1", "name": "NIS Free", "url": "https://shahinrhss99.github.io/TV/tv.m3u" },
+    { "id": "fixed-2", "name": "Sky Pack", "url": "https://nistv.github.io/tv/alltv.m3u8" }
+  ]
+}
