@@ -105,6 +105,7 @@
         .channel-item.active { border-color: var(--accent); background: rgba(229,9,20,0.1); }
         .logo-wrapper { width: 60px; height: 60px; margin: 0 auto 6px; background: #111; border-radius: 50%; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 5px; }
         .channel-logo { max-width: 100%; max-height: 100%; object-fit: contain; }
+        .channel-logo { max-width: 100%; max-height: 100%; object-fit: contain; }
         .channel-name { font-size: 0.65rem; font-weight: 600; color: var(--text-secondary); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .app-footer { background: rgba(0,0,0,0.7); text-align: center; padding: 8px 12px; font-size: 0.65rem; color: #aaa; border-top: 1px solid var(--border-dim); flex-shrink: 0; }
         [data-theme="light"] .app-footer { background: rgba(240,240,240,0.8); color: #333; }
@@ -116,7 +117,7 @@
         ::-webkit-scrollbar-track { background: #222; }
         ::-webkit-scrollbar-thumb { background: var(--accent); }
 
-        /* ========== ট্যাবলেট/ডেস্কটপ রেসপন্সিভ অবিকল রাখা হলো ========== */
+        /* ========== ট্যাবলেট/ডেস্কটপ  ========== */
         @media (max-width: 992px) {
             .main-row { flex-direction: column; }
             .sidebar { min-width: 100%; max-height: 45vh; }
@@ -125,7 +126,7 @@
             .app-container { overflow-y: auto; }
         }
         
-        /* ========== মোবাইলের প্লেয়ার সাইজ বড় করা হয়েছে) ========== */
+        /* ========== মোবাইলের প্লেয়ার সাইজ ========== */
         @media (max-width: 768px) {
             .social-icons, .brand-tag { display: none !important; }
             
@@ -444,15 +445,31 @@
 
     function buildCategoryTabs(list) {
         const cats = new Set(["all"]);
-        list.forEach(ch => { cats.add(ch.category || "Other"); });
+        // গ্রুফ অনুযায়ী মোট চ্যানেলের সংখ্যা জানার জন্য একটি অবজেক্ট ম্যাপ তৈরি
+        const catCounts = {};
+        
+        list.forEach(ch => { 
+            const catName = ch.category || "Other";
+            cats.add(catName); 
+            catCounts[catName] = (catCounts[catName] || 0) + 1;
+        });
+        
         const sorted = Array.from(cats).sort((a,b)=> a==='all'? -1 : b==='all'? 1 : a.localeCompare(b));
         catsContainer.innerHTML = "";
+        
         sorted.forEach(cat => {
             const btn = document.createElement("button");
             btn.className = "cat-tab";
             if (cat === activeCategory) btn.classList.add("active");
             btn.setAttribute("data-cat", cat);
-            btn.innerText = cat === "all" ? "📡 সবগুলো" : cat;
+            
+            // সবগুলো এবং বাকি অন্যান্য গ্রুফ বা ক্যাটাগরির পাশেও ব্র্যাকেটে মোট কাউন্ট যোগ করা হলো
+            if (cat === "all") {
+                btn.innerText = `📡 সবগুলো (${list.length})`;
+            } else {
+                btn.innerText = `${cat} (${catCounts[cat] || 0})`;
+            }
+            
             btn.onclick = () => {
                 document.querySelectorAll(".cat-tab").forEach(t=>t.classList.remove("active"));
                 btn.classList.add("active");
