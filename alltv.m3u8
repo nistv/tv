@@ -1220,7 +1220,7 @@ https://stream717.duckdns.org/hls/stream1.m3u8
 https://video.primexsports.com/suchnews/live/playlist.m3u8
 
 *****************************************************************
-#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png" group-title="Toffee",EPL channel 1
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RFQ4S8ym/Screenshot-(418).png" group-title="Toffee",EPL channel 1
 https://mxonlive.xyz/universal_restream/play/3/stream.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Mi1QqZgBNnOkwJLWxggo/posters/3e9d4d0a-a346-4b39-92b5-13e9238ad240.png" group-title="Toffee",EPL channel 2
 https://mxonlive.xyz/universal_restream/play/4/stream.m3u8
