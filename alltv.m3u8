@@ -1220,12 +1220,6 @@ https://stream717.duckdns.org/hls/stream1.m3u8
 https://video.primexsports.com/suchnews/live/playlist.m3u8
 
 *****************************************************************
-
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament, -2026_FC-WEB_1779005924089.jpg" group-title="fancode",-2026_FC-WEB_1779005924089.jpg" group-title="fancode"- Band-e-Amir Region vs Amo Region (Supercola Regional List A Tournament- 2026)
-https://mxonlive.xyz/universal_restream/play/1/stream.m3u8
-#EXTINF:-1 tvg-logo="https://johirxofficial.github.io/logos/IMG_20260221_143301.png" group-title="Toffee",credit: johirxofficial
-https://mxonlive.xyz/universal_restream/play/2/stream.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/08617b27-2af1-4035-bcc3-d054ce42ca4b.png" group-title="Toffee",EPL channel 1
 https://mxonlive.xyz/universal_restream/play/3/stream.m3u8
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Mi1QqZgBNnOkwJLWxggo/posters/3e9d4d0a-a346-4b39-92b5-13e9238ad240.png" group-title="Toffee",EPL channel 2
