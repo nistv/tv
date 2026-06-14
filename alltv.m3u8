@@ -4,6 +4,8 @@
 https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/T_Sports_logo.svg" group-title="Sports",T Sports 2
 https://mxonlive.xyz/universal_restream/play/134/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ncLBcK8L/unnamed.webp" group-title="Sports",tapmad 
+https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-P2s6L_EnG-FiN@L/level_0.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",KTV Sport Plus
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Oman Sports TV
