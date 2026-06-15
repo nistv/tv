@@ -20,8 +20,18 @@ https://d2396zb8liu8hs.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/720p-en/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Telemundo
 https://tda-nnaa-drct-pa6dy.fast.nbcuni.com/live/master_2.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Telemundo 2
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_720.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Las Estrellas
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_5.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fox 11
+https://aegis-cloudfront-1.tubi.video/62883227-8fc8-4992-97ff-614d283b4789/playlist720p.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fox one
+https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/level_0.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fox Two
+https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fox Score Plus
+https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/level_0.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",TV RI Sports
 https://m.mxonlive.xyz/nexusstream/proxy/aHR0cHM6Ly9vdHQtYmFsYW5jZXIudHZyaS5nby5pZC9saXZlL2Vkcy9TcG9ydEhEL2hscy9TcG9ydEhELWF2YzFfMjUwMDAwMD0xMDAwNC1tcDRhXzk2MDAwPTIwMDAyLm0zdTg.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",TyC Sports
