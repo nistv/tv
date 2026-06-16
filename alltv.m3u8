@@ -2,6 +2,10 @@
 #Source: SRC-ID:8a0a955eed047000f93213bc
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Bein Sports 1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Somoy TV
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://www.btvlive.gov.bd/_next/static/media/btv-logo.d937bde9.svg" group-title="World Cup 26",BTV News
+https://streams.btvlive.gov.bd/live/ca692d16-1f11-43df-96c6-0945611322f5/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Caze TV HD
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Rai 1 Italy 
@@ -32,8 +36,6 @@ https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/le
 https://m.mxonlive.xyz/nexusstream/proxy/aHR0cHM6Ly9vdHQtYmFsYW5jZXIudHZyaS5nby5pZC9saXZlL2Vkcy9TcG9ydEhEL2hscy9TcG9ydEhELWF2YzFfMjUwMDAwMD0xMDAwNC1tcDRhXzk2MDAwPTIwMDAyLm0zdTg.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",TyC Sports
 https://m.mxonlive.xyz/nexusstream/proxy/aHR0cHM6Ly9hbWcyNjI2OC1hbWcyNjI2OGMxNC1mcmVlbGl2ZXNwb3J0cy1lbWVhLTEwMjY3LnBsYXlvdXRzLm5vdy5hbWFnaS50di90cy11cy1lMi1uMi9wbGF5bGlzdC9hbWcyNjI2OC1zcG9ydHNzdHVkaW8tdHljc3BvcnRzLWZyZWVsaXZlc3BvcnRzZW1lYS9jYjU1M2QxODdhNmM2NzhhOTJkNDNkNjZkMGVmNDFhN2Q5MjQ2ZWZjMDg3YThkNjkzM2ZiNGI5MjZiYzEwZjQxZTJlNWFmOTdiMjBjYWM3ODIyZmIwZmRmNjExNDZkNWE0ZDAwOTI0N2Q4NzgwYWQ3OTY3Y2FjNDgyNDBkNTczNGM2Y2RkNTJlOGJlMjRiNGRhZGRkMGMyZDM0YjA3YzBjNDVhZDA3MTE4MTJjMDYyYThjYTQ0YzVmODAzY2Y4Mjg1NDE1Yjk0NDM3MDU2YWRjZjA1YmY4N2YwNGNjODYwMjgzNzYyOGRmZjliZjViMDM0ZDc4NmZiNTZkNDdkNWEyNmVjOWFmZGI1MTM4ODcyNmY4ZWQ0MDE5OGEyYTViZTc5MjVhYWU4ZDQyZWZkZjkzMTg4ZTNkZTI2NmYwMTQ4MzkyZmI5YmI0NDlkYzgwOTU2OGI5MWZiNDYwNDAxODAzNmQ4OThjN2NhNGNjNWY5ZGQzOGUyNjZjY2YyNjY2MTU0ODI3OTNjOWY5Yzk0NzMyODI0ODU0NGZiOGFlOWJjZDAyZDEyNzhlZDg3NWNmMzA0ZGQyNDJmZjZiODEyMzgxN2ZhNTE5YWQ4MjFmZjZmYTViYmVkYTk3ZTMxNWEyNzM5MjZhNDQzZGE2YjY5NjlmOWRiM2I0ZjRmZDUyMjIvMTY3LzY0MHgzNjBfMTU2MTkwNC9pbmRleC5tM3U4.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Somoy TV
-https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",KTV Sport Plus
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Oman Sports TV
