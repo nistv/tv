@@ -6,6 +6,8 @@ https://sportspred-proxy.voicenurealom.workers.dev/smil:rtbgo/chunklist_b4096000
 https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fifa 2026
 https://hls.livekhelatv.website/mks/lktv/s/fifa-worldcup-eng/playlist/1080p_FHD/livekhela.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fifa 2026
+https://hls.livekhelatv.website/mks/lktv/fifa-worldcup-eng/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Bein Sports 1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Bein Sports 1
