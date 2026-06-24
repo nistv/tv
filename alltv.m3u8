@@ -26,6 +26,10 @@ http://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",D Sports
 https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Caze TV HD
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Sports Fast
+https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409/variant/22100007.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",DAZN
 https://m.mxonlive.xyz/nexusstream/ch07.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Oman Sports TV
@@ -52,16 +56,12 @@ https://1nyaler.streamhostingcdn.top/stream/4/index.m3u8
 https://1nyaler.streamhostingcdn.top/stream/20/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Sky Sports
 https://1nyaler.streamhostingcdn.top/stream/1/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Caze TV HD
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fox Sports
 https://1nyaler.streamhostingcdn.top/stream/25/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Fox Sports 2
 https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Rai 1 Italy 
 https://ilglobotv-live.akamaized.net/channels/RAI1/events(1000)/RAI1-video=5000000.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Sports Fast
-https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409/variant/22100007.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Sports Fast
 https://d2396zb8liu8hs.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/e829c0c5-6a7e-4f52-81c3-2f27aace876a/0.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",WOF
