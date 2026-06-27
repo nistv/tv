@@ -943,6 +943,8 @@ https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/a731c680-6a62-4174-bc98-186fe654724a/0.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/KxC4ccD0/Casio-opening-bot-logo-4k-scaled.png" group-title="Music",B>U Music
 https://d3kdywbtdfbp9z.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/dff423e0-3c82-46d6-9ecb-3baa96b5694a/4598c408-0e38-488c-9b64-fc845d1ea2b6/0.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Kids",Nick Bangla
+https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/457.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/FFwSjdzS/Pogo.jpg" group-title="Kids",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/zBCLNtGZ/Duronto.jpg" group-title="Kids",Duck TV
