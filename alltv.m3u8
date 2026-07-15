@@ -16,6 +16,8 @@ https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.61.12%2Ftv.
 https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.60.204%3A881%2FBTV%2Ftracks-v1a1%2Fmono.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Somoy TV
 https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.60.204%3A881%2FSomoy-tv%2Ftracks-v1a1%2Fmono.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",BDIX TV
+https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.165.93.31%3A8095%2Ftsports%2Ftracks-a1%2Fmono.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",FIFA+
 https://tv.bdixbd.net/api/proxy/stream.m3u8?url=https%3A%2F%2F37b4c228.wurl.com%2Fmanifest%2Ff36d25e7e52f1ba8d7e56eb859c636563214f541%2FUmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw%2F518df13c-c30b-4906-9d00-bfa3c1f68402%2F3.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wBVnYCwF/official-fifa-world-cup-2026.webp" group-title="World Cup 26",Toffee
